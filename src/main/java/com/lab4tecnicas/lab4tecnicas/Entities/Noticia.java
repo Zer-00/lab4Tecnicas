@@ -1,4 +1,4 @@
-package com.lab4tecnicas.Entities;
+package com.lab4tecnicas.lab4tecnicas.Entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
