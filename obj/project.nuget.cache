@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "SmdJc3fivjIUGX9Hz/L4ocD0I6C3YuQoWmwYD4BJjXZpcUrW1SlS6iY/R0RPhndPgYwMAGstrKC94Ud8DX/t/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fazen\\Downloads\\lab4Tecnicas\\Lab4Tecnicas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fazen\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\fazen\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\fazen\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\fazen\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
