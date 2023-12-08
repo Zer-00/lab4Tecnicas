@@ -1,15 +1,19 @@
 package com.lab4tecnicas.Entities;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 public class user {
     
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idUser;
     private String username;
     private String password;
-    
+
     public Integer getIdUser() {
         return idUser;
     }
