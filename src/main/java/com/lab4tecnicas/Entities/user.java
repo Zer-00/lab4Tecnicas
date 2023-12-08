@@ -6,8 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class user {
-    
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idUser;
@@ -33,7 +32,12 @@ public class user {
         this.password = password;
     }
 
-    
+    public String crearUsuario(String username){
+        return this.username + "fue creado";
+    }
 
+    public String borrarUsuario(String idUser){
+        return this.idUser + "fue borrado";
+    }
 
 }
