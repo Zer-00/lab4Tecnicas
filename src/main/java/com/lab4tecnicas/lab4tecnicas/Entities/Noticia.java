@@ -15,7 +15,7 @@ public class Noticia {
     private String subtitleNoticia;
     private String linkImg;
     private String tipoNoticia;
-    private CategoriaNoticia categoria;
+    private Categoria categoria;
 
     public Integer getIdNoticia() {
         return idNoticia;
@@ -57,11 +57,11 @@ public class Noticia {
         this.tipoNoticia = tipoNoticia;
     }
     
-    public CategoriaNoticia getCategoria() {
+    public Categoria getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(CategoriaNoticia categoria) {
+    public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
 
